@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>To Do</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="To-Do List">
+		<meta name="keywords" content="Todo, Tasks, Management, Organization">
+		<meta name="author" content="Maximilian Maske"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+		<link rel="icon" href="todolist/images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="todolist/font-awesome-4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="todolist/css/style.css"/>
+
+		<script src="todolist/javascript/jquery-2.2.0.js" type="text/javascript"></script>
+		<script src="todolist/javascript/jquery-ui-1.11.4.custom/jquery-ui.js" type="text/javascript"></script>
+		<script src="todolist/javascript/todo.js" type="text/javascript"></script>
+
+	</head>
+
+	<body>
+
+		<header>
+			<h1 id="heading">To Do List</h1>
+		</header>
+
+		<div id="box">
+			<div id="nav">
+				<input type="text" placeholder="New Task" id="inText">
+					<button id="btnNew"><i class="fa fa-hand-o-down"></i></button> <!--alt: fa fa-plus -->
+			</div>
+
+			<ul id='tasks'>
+				<!-- list elements will be added by todo.js -->
+			</ul>
+		</div>
+
+		<footer>
+			<small id="copyright">Copyright &copy; 2016 - Max</small>
+			<small id="info"><i class="fa fa-info-circle"></i></small>
+
+		</footer>
+
+	</body>
+</html>
